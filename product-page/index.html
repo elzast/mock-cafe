@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="/assets/logo-temp.png" alt="#" />
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Coffee</a></li>
+        </ul>
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Tea</a></li>
+        </ul>
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Sweets</a></li>
+        </ul>
+        <p class="total">Total:</p>
+        <button class="checkout-btn">Check out</button>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="product-menu">
+        <h2>Coffee</h2>
+        <button data-cost="2" class="button cart-btn">Add to cart</button>
+      </div>
+      <div class="product-menu">
+        <h2>Scone</h2>
+        <button data-cost="3" class="cart-btn button">Add to cart</button>
+      </div>
+      <div class="product-menu">
+        <h2>Matcha Latte</h2>
+        <button data-cost="4" class="cart-btn button">Add to cart</button>
+      </div>
+      <div class="product-menu">
+        <h2>3pk Cookies</h2>
+        <button data-cost="5" class="cart-btn button">Add to cart</button>
+      </div>
+    </section>
+    <script src="product.js"></script>
+  </body>
+</html>
