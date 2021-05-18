@@ -7,11 +7,9 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 0 40px;
 }
-
 .nav {
   display: flex;
   align-items: center;
@@ -80,7 +78,6 @@ body {
 .menu-link {
   margin: 10px;
 }
-
 @media only screen and (min-width: 768px) {
   .about-container {
     display: flex;
@@ -112,7 +109,6 @@ body {
     position: relative;
     bottom: 150px;
   }
-
   .menu {
     margin: 90px 20px;
     padding: 20px;
