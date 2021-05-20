@@ -8,6 +8,7 @@ ul {
 
 body {
   margin: 0 40px;
+  overflow: hidden;
 }
 
 .nav {
@@ -95,6 +96,23 @@ body {
 .popup {
   width: 100%;
   height: 100%;
+}
+.checkout-container {
+  display: none;
+}
+.checkout-popup-div {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: lightslategray;
+  z-index: 1;
+}
+.pop-up-p {
+  text-align: center;
+  color: black;
+  font-size: 2em;
 }
 @media only screen and (min-width: 768px) {
   .logo {
