@@ -110,10 +110,26 @@ body {
   background-color: lightslategray;
   z-index: 1;
 }
+.pop-up-text {
+  background-color: blueviolet;
+  border: 6px dotted chartreuse;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5em;
+}
 .pop-up-p {
   text-align: center;
-  color: black;
+  color: chartreuse;
+  text-shadow: 5px 2px black;
   font-size: 2em;
+}
+.hide-checkout {
+  font-size: 1.6em;
+  width: 3em;
+  border: 3px solid black;
 }
 .total-div {
   display: flex;
