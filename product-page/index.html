@@ -16,10 +16,8 @@
     <div class="checkout-container">
       <div class="checkout-popup-div">
         <button type="button" class="delete hide-checkout btn">X</button>
-        <p class="pop-up-p">
-          Thank you for shopping. Your order total is below.
-        </p>
-        <p class="pop-up-p"><span class="total-span">Total:</span></p>
+        <p class="pop-up-p">Your order has been placed!</p>
+        <p class="pop-up-p"><span class="total-span">Your total is:</span></p>
         <p class="pop-up-p">Click X to exit.</p>
       </div>
     </div>
@@ -37,26 +35,67 @@
         <ul>
           <li class="nav-list"><a class="nav-item link" href="#">Sweets</a></li>
         </ul>
-        <p class="total">Total:</p>
-        <button class="checkout-btn btn show-checkout">Check out</button>
       </nav>
     </header>
     <main>
+      <div class="total-div">
+        <p class="total">Total:</p>
+        <button class="checkout-btn btn show-checkout">Check out</button>
+      </div>
       <section class="product-menu-container">
         <div class="product">
-          <h2 class="product-title">Coffee</h2>
-          <img class="menu-img" src="./assets/coffee.png" alt="coffee cup" />
+          <h2 class="product-title">Drip Coffee</h2>
+          <img
+            class="product-img"
+            src="../assets/products/coffee-product.jpeg"
+            alt="coffee cup"
+          />
           <button data-cost="2" class="button cart-btn btn">Add to cart</button>
         </div>
         <div class="product">
-          <h2 class="product-title">Tea</h2>
-          <img class="menu-img" src="./assets/tea.png" alt="tea cup" />
+          <h2 class="product-title">Hot Tea</h2>
+          <img
+            class="product-img"
+            src="../assets/products/tea-product.jpeg"
+            alt="tea cup"
+          />
           <button data-cost="2" class="button cart-btn btn">Add to cart</button>
         </div>
         <div class="product">
-          <h2 class="product-title">Sweets</h2>
-          <img class="menu-img" src="./assets/sweets.png" alt="cake tray" />
-          <button data-cost="2" class="button cart-btn btn">Add to cart</button>
+          <h2 class="product-title">Matcha Latte</h2>
+          <img
+            class="product-img"
+            src="../assets/products/matcha-product.jpeg"
+            alt="cake tray"
+          />
+          <button data-cost="4" class="button cart-btn btn">Add to cart</button>
+        </div>
+        <div class="product">
+          <h2 class="product-title">Latte</h2>
+          <img
+            class="product-img"
+            src="../assets/products/latte-product.jpeg"
+            alt="cake tray"
+          />
+          <button data-cost="4" class="button cart-btn btn">Add to cart</button>
+        </div>
+        <div class="product">
+          <h2 class="product-title">Cupcake</h2>
+          <img
+            class="product-img"
+            src="../assets/products/cupcake-product.jpeg"
+            alt="cake tray"
+          />
+          <button data-cost="3" class="button cart-btn btn">Add to cart</button>
+        </div>
+        <div class="product">
+          <h2 class="product-title">Cookie 3pk</h2>
+          <img
+            class="product-img"
+            src="../assets/products/cookies-product.jpeg"
+            alt="cake tray"
+          />
+          <button data-cost="5" class="button cart-btn btn">Add to cart</button>
         </div>
       </section>
     </main>
