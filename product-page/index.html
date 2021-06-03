@@ -4,23 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Page DOM</title>
+    <title>DevYou Cafe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  </header>
-  
     <div class="checkout-container">
       <div class="checkout-popup-div">
         <button type="button" class="delete hide-checkout btn">X</button>
-        <p class="pop-up-p">Thank you for shopping.  Your order total is below.</p>
-        <p class="pop-up-p">Click X to exit.  </p>
-        <p class=" pop-up-p"><span class="total-span">Total:</span></p>
+        <p class="pop-up-p">
+          Thank you for shopping. Your order total is below.
+        </p>
+        <p class="pop-up-p"><span class="total-span">Total:</span></p>
+        <p class="pop-up-p">Click X to exit.</p>
       </div>
     </div>
     <header>
       <nav class="nav">
-        <div class="logo"></div>
+        <div class="logo">
+          <h1 class="logo-text">DevYou <span class="logo-span">Cafe</span></h1>
+        </div>
         <ul>
           <li class="nav-list"><a class="nav-item link" href="#">Coffee</a></li>
         </ul>
@@ -33,26 +40,26 @@
         <p class="total">Total:</p>
         <button class="checkout-btn btn show-checkout">Check out</button>
       </nav>
-      <section class="main">
-      <div class="product-menu-container">
-        <div class="product-menu">
-          <h2>Coffee</h2>
+    </header>
+    <main>
+      <section class="product-menu-container">
+        <div class="product">
+          <h2 class="product-title">Coffee</h2>
+          <img class="menu-img" src="./assets/coffee.png" alt="coffee cup" />
           <button data-cost="2" class="button cart-btn btn">Add to cart</button>
         </div>
-        <div class="product-menu">
-          <h2>Scone</h2>
-          <button data-cost="3" class="cart-btn button btn">Add to cart</button>
+        <div class="product">
+          <h2 class="product-title">Tea</h2>
+          <img class="menu-img" src="./assets/tea.png" alt="tea cup" />
+          <button data-cost="2" class="button cart-btn btn">Add to cart</button>
         </div>
-        <div class="product-menu">
-          <h2>Matcha Latte</h2>
-          <button data-cost="4" class="cart-btn button btn">Add to cart</button>
+        <div class="product">
+          <h2 class="product-title">Sweets</h2>
+          <img class="menu-img" src="./assets/sweets.png" alt="cake tray" />
+          <button data-cost="2" class="button cart-btn btn">Add to cart</button>
         </div>
-        <div class="product-menu">
-          <h2>3pk Cookies</h2>
-          <button data-cost="5" class="cart-btn button btn">Add to cart</button>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
