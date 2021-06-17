@@ -166,7 +166,7 @@ body {
   .product-menu-container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 95%;
     align-items: initial;
   }
   .product-img {
