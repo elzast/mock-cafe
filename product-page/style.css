@@ -52,7 +52,6 @@ body {
   position: absolute;
   top: 15%;
   display: flex;
-
   left: 50%;
   transform: translate(-50%);
   flex-direction: column;
@@ -137,7 +136,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 7%;
+
   right: 5%;
 }
 .total {
@@ -166,9 +165,12 @@ body {
   .product-menu-container {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     align-items: initial;
+    margin-left: 100px;
+    margin-top: 50px;
   }
+
   .product-img {
     width: 9em;
     height: 9em;
