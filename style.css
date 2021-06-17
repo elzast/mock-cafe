@@ -31,9 +31,14 @@ body {
 .logo-span {
   color: chartreuse;
 }
+.nav-parent {
+  margin-right: 5px;
+  display: flex;
+}
 .nav-list {
   list-style: none;
   display: flex;
+  flex-direction: row;
   margin-right: -5px;
 }
 .link {
